@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "Membuat Todo List dengan React"
 permalink: /todo-list/
 ---
 
@@ -20,6 +19,7 @@ ini untuk styling taruh di folder styles dalam src
 - e.target value digunakan untuk mendengar inputan dari user taruh di param onChange
 - value = {form.task} => untuk menampikan apa yang diketik di user
 - form terdapat param onSubmit untuk mengirim data di dalam form button harus bertype submit
+  
 ```css
 .formCont{
     height: 20vh;
@@ -45,6 +45,7 @@ ini untuk styling taruh di folder styles dalam src
 .formCont label{
     margin-left: 5px;
 }
+```
 dalam form ini kita akan menggunakan useState untuk menghandle data yang diinput oleh user. Nantinya ini akan dikirim ke parent. 
 ```jsx
 import { useState } from "react"
@@ -87,7 +88,6 @@ export default function InsertForm({onSend}){
 import { useState } from 'react'
 import './App.css'
 import InsertForm from './components/form-insert'
-
 ```
 - ./ artinya app.jsx 1 root dengan folder components, ../ kalau ini kita harus naik 1 folder dari child ke parent folder .
 kemudian dalam app.jsx write code
