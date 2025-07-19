@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Membuat Todo List dengan React"
-permalink: /blog/todo-list/
+permalink: /todo-list/
 ---
 
 # Membuat todo list sederhana
