@@ -46,6 +46,15 @@ ini untuk styling taruh di folder styles dalam src
     margin-left: 5px;
 }
 ```
+```css
+.task{
+    flex: 2; /* karen parent display flex, width child menggunkana proporsi menagatur width */
+}
+.status{
+    width: 20px;
+    margin-left: 5px;
+}
+```
 dalam form ini kita akan menggunakan useState untuk menghandle data yang diinput oleh user. Nantinya ini akan dikirim ke parent. 
 ```jsx
 import { useState } from "react"
