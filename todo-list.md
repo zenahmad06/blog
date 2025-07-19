@@ -14,8 +14,8 @@ Buat component folder terlebih dahulu di dalam src di vs code dan kemudian buat 
         <button type="submit">add task</button>
     </form>
 </>
-ini untuk styling taruh di folder styles dalam src
 ```
+ini untuk styling taruh di folder styles dalam sr
 - e.target value digunakan untuk mendengar inputan dari user taruh di param onChange
 - value = {form.task} => untuk menampikan apa yang diketik di user
 - form terdapat param onSubmit untuk mengirim data di dalam form button harus bertype submit
