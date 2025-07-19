@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Membuat Todo List dengan React"
 permalink: /blog/todo-list/
 ---
