@@ -70,6 +70,7 @@ export default function InsertForm({onSend}){
     }
 ```
 - function InserForm memiliki param key OnSend jadi di dalam parent nanti component inserForm nya harus memiliki key onSend seperti ini :
+  
 ```jsx
 <InsertForm onSend={updateData}/>
 ```
@@ -81,6 +82,7 @@ export default function InsertForm({onSend}){
 - setelah di send kita reset kembalik dengan task dikembalikan ke empty
 
 ### 2. dalam Aapp.jsx dimana ini parentnya import component insertForm
+
 ```jsx
 import { useState } from 'react'
 import './App.css'
