@@ -1,0 +1,6 @@
+title: "Zen's Blog"
+description: "Kumpulan catatan React dan lainnya"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
