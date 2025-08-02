@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /todo-list/
+permalink: /crud/
 ---
 
 
@@ -400,5 +400,6 @@ pada main layout tombolnya seperti ini navigasi ke
 ```jsx
 <button className="flex flex-1 items-center justify-center border border-black" onClick={() => navigate(`update/${indexItem}`)}>update</button>
 ```
+
 
 
