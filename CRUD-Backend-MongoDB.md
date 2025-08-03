@@ -21,7 +21,7 @@ npm install
 ```
 so this is the structure after we doing npm install
 
-![structured folder](./images/structured.png)
+![structured folder](./images/structured.PNG)
 
 ##### insttalling mongoose
 mongoose is a DOM library that we can use to organize database in mongodb
@@ -334,6 +334,7 @@ route.delete('/:id',AsyncHandler(async(req,res) => {
 first we use findOne and the after that we use deleteOne. we test in thunder client
 
 ![delete](./images/deletemethod.PNG)
+
 
 
 
