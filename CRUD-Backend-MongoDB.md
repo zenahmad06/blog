@@ -21,6 +21,7 @@ npm install
 ```
 so this is the structure after we doing npm install
 
-![structured folder](./images/structured.png)
+![structured folder](./images/structured.PNG)
+
 
 
