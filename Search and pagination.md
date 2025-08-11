@@ -320,8 +320,7 @@ the first step is we want to show pagination just using button next and previous
 so this is the code for example
 
 so the flow of work this step is
-![flow]('./images/flow.png')
-
+![mongodb](./images/flow.png)
 - when user click the search, the first thing happen is like this
 ```js
   function showParams(){
@@ -555,5 +554,6 @@ export default function SearchPage(){
     )
 }
 ```
+
 
 
